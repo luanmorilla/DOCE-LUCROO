@@ -1,0 +1,15 @@
+{
+  "/(app)/customers/page": "/customers",
+  "/(app)/dashboard/page": "/dashboard",
+  "/(app)/finance/page": "/finance",
+  "/(app)/orders/page": "/orders",
+  "/(app)/products/page": "/products",
+  "/(app)/recipes/page": "/recipes",
+  "/(app)/reports/page": "/reports",
+  "/(app)/settings/page": "/settings",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/icon/route": "/icon",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/page": "/"
+}
