@@ -23,7 +23,7 @@ export function cn(...classes: Array<string | false | null | undefined>) {
 }
 
 export function generateId(prefix: string) {
-  return `${prefix}_${crypto.randomUUID().replaceAll("-", "").slice(0, 10)}`;
+  return `${prefix}_${crypto.randomUUID().replace(/-/g, "").slice(0, 10)}`;
 }
 
 export function todayISO() {
